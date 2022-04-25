@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SiteDevelope by Vlas</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Description of website">
+    <meta name="keywords" content="Website">
+    <!-- Inter FONT -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet">  
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body id="body">
+    
+    <header class="wow fadeIn">
+        <div class="bgd"></div>
+        <div class="close__burger">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M13.3779 0.508017C12.8858 0.0158822 12.0879 0.0158825 11.5957 0.508017L6.94284 5.16091L2.28995 0.508017C1.79782 0.0158831 0.999908 0.0158819 0.507773 0.508017C0.0156383 1.00015 0.0156382 1.79806 0.507773 2.29019L5.16066 6.94308L0.507774 11.596C0.0156395 12.0881 0.0156378 12.886 0.507773 13.3781C0.999908 13.8703 1.79781 13.8703 2.28995 13.3781L6.94284 8.72526L11.5957 13.3781C12.0879 13.8703 12.8858 13.8703 13.3779 13.3781C13.87 12.886 13.87 12.0881 13.3779 11.596L8.72502 6.94308L13.3779 2.29019C13.87 1.79806 13.87 1.00015 13.3779 0.508017Z"
+                    fill="#333333" />
+            </svg>
+        </div>
+        <div class="wrapper">
+            <div class="header">
+                <div class="header__burger">
+                    <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M6.10352e-05 1C6.10352e-05 0.447715 0.447776 0 1.00006 0H19.0001C19.5523 0 20.0001 0.447715 20.0001 1C20.0001 1.55228 19.5523 2 19.0001 2H1.00006C0.447776 2 6.10352e-05 1.55228 6.10352e-05 1ZM6.10352e-05 7C6.10352e-05 6.44772 0.447776 6 1.00006 6H19.0001C19.5523 6 20.0001 6.44772 20.0001 7C20.0001 7.55228 19.5523 8 19.0001 8H1.00006C0.447776 8 6.10352e-05 7.55228 6.10352e-05 7ZM1.00006 12C0.447776 12 6.10352e-05 12.4477 6.10352e-05 13C6.10352e-05 13.5523 0.447776 14 1.00006 14H12.0001C12.5523 14 13.0001 13.5523 13.0001 13C13.0001 12.4477 12.5523 12 12.0001 12H1.00006Z"
+                            fill="#333333" />
+                    </svg>
+                </div>
+                <a class="header__logo" href="#">
+                    <img src="img/logo.svg" alt="Logo">
+                </a>
+                <nav class="header__nav">
+                    <div class="menu__img">
+                        <img src="img/image-mob.png" alt="Photo">
+                    </div>
+                    <ul class="header__menu">
+                        <li class="menu__item"><a class="item__link _scroll-link" href="#why-id">About</a>
+                        </li>
+                        <li class="menu__item"><a class="item__link " href="scan-order.html">Scan&Order</a>
+                        </li>
+                        <li class="menu__item"><a class="item__link _scroll-link" href="#integration-id">Integration</a>
+                        </li>
+                        <li class="menu__item"><a class="item__link _scroll-link" href="#plans-id">Plans</a>
+                        </li>
+                        <li class="menu__item"><a class="item__link _scroll-link" href="#faq-id">FAQ</a>
+                        </li>
+                        <li class="menu__item"><a class="item__link _scroll-link" href="#footer-id">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="header__account" data-popup="register">My account</button>
+            </div>
+        </div>
+    </header>
+    
+
+  <section class="poster">
+    <div class="wrapper">
+      <div class="lft wow fadeIn">
+        <div class="lft__photo"></div>
+        <img src="img/poster-img.png" alt="Photo">
+      </div>
+      <div class="rht wow fadeInRight">
+        <h1>Get a tip <br />easily with QR!</h1>
+        <p>Your customers can send you tips online!
+          <br />Sign up for the tiponline.ca and get tips online fast and easy!</p>
+        <div class="poster__form">
+          <input type="text" placeholder="Your name">
+          <input type="email" placeholder="Your e-mail">
+          <button data-popup="register">Register now, <span>get $10</span>
+          </button>
+        </div>
+        <div class="poster__slider">
+          <div class="slider__top">
+            <p>Look <span>how other use it</span>!</p>
+            <div class="arr-next"><span>Next</span>
+              <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.7348 0.32171C8.3602 -0.0841111 7.72754 -0.109417 7.32172 0.265186C6.9159 0.63979 6.89059 1.27245 7.2652 1.67827L11.716 6.49999H1C0.447715 6.49999 0 6.9477 0 7.49999C0 8.05227 0.447715 8.49999 1 8.49999H11.9194L7.21913 14.3753C6.87412 14.8066 6.94404 15.4358 7.37531 15.7809C7.80657 16.1259 8.43586 16.0559 8.78087 15.6247L14.7809 8.12468C15.0897 7.73867 15.0701 7.18495 14.7348 6.82171L8.7348 0.32171Z"
+                fill="#333333" />
+              </svg>
+            </div>
+          </div>
+          <ol class="slider__block">
+            <li class="slider__item">
+              <p>Doing back office work and getting tip – that is great. Thanks to my manager who created account for our company with tiponline. I love my job. Thank you guys!</p>
+              <div class="item__bottom"><span>Carter, кем работает</span>
+                <div class="dots"><span class="current"></span><span class="all">12</span>
+                </div>
+              </div>
+            </li>
+            <li class="slider__item">
+              <p>I have online blog and share with my experience with people. You know sometimes I ask people to support me, and you can do it with different ways one of them is tiponlie.ca widget which I put on my webpage. I like it and can advice other
+                bloggers to do the same. Thanks!</p>
+              <div class="item__bottom"><span>Carter, кем работает</span>
+                <div class="dots"><span class="current"></span><span class="all">12</span>
+                </div>
+              </div>
+            </li>
+            <li class="slider__item">
+              <p>Doing back office work and getting tip – that is great. Thanks to my manager who created account for our company with tiponline. I love my job. Thank you guys!</p>
+              <div class="item__bottom"><span>Carter, кем работает</span>
+                <div class="dots"><span class="current"></span><span class="all">12</span>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="why" id="why-id">
+    <div class="wrapper">
+      <h2 class="wow fadeInDown">Why you need tiponline</h2>
+      <div class="lft">
+        <ul>
+          <li class="wow fadeInLeft" style="--color: #70B7FF"><b><span class="regular">≈</span> 68 <span class="regular">hours</span></b>
+            <p>everage annual time for making order</p>
+          </li>
+          <li class="wow fadeInLeft" data-wow-delay=".1s" style="--color: #87BD75"><b>72<span class="min-regular">%</span></b>
+            <p>of customers pay for services by credit or debit card</p>
+          </li>
+          <li class="wow fadeInLeft" data-wow-delay=".2s" style="--color: #D2B360"><b>53<span class="min-regular">%</span></b>
+            <p>of receivers know exactly how much money did the customer leave as the tip</p>
+          </li>
+          <li class="wow fadeInLeft" data-wow-delay=".3s" style="--color: #A48CEA"><b><span class="regular">≈</span> 5<span class="regular">days</span></b>
+            <p>it takes to get money to your bank account</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="why__block wow fadeInDown" data-wow-delay=".4s">
+      <div class="why__block--body wrapper">
+        <div class="why__block--image">
+          <img src="img/why-image.png" loading="lazy" width="300" alt="" class="why__block--img">
+        </div>
+        <div class="why__block--text">
+          Tiponline can help you to get your tips and gratuities directly to your bank account, track payments, transaction history, and withdraw money fast! Also it's impossible to view the history of payment, there is a lack of transparency.
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="integration" id="integration-id">
+    <div class="wrapper">
+      <div class="sides">
+        <div class="lft">
+          <h2 class="wow fadeInDown">How to integrate</h2>
+          <p class="wow fadeInDown">You can choose the way that suits you most - all of them are easy to integrate and efficient for getting tips!
+            <br />
+            <br />For tipping, your customer does not have to download the app or register. It is enough to point the camera at the QR code / click on the button on the widget / click on the link in the text.</p>
+          <ul>
+            <li class="wow fadeInDown">
+              <div class="li__icon">
+                <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M64.1685 32.0965C64.1685 25.9363 59.555 20.8245 53.5737 19.9808C52.6889 10.9439 44.9849 3.85742 35.6428 3.85742C26.3013 3.85742 18.5977 10.944 17.7121 19.9807C11.7307 20.8245 7.11719 25.9363 7.11719 32.0965C7.11719 36.7069 9.70207 40.7292 13.5098 42.8155C13.4205 43.6597 13.3748 44.5071 13.3748 45.3484C13.3748 46.9831 13.5408 48.62 13.8681 50.2131C14.0464 51.0806 14.8157 51.7037 15.7085 51.7037H19.1052C19.2035 51.9548 19.3075 52.2032 19.4174 52.4495L17.0149 54.8316C16.3835 55.4577 16.2838 56.438 16.7768 57.1764C17.6821 58.5331 18.7319 59.8066 19.897 60.9618C21.0632 62.1182 22.3477 63.1591 23.7149 64.0558C24.459 64.544 25.4476 64.4454 26.0791 63.8193L28.4814 61.4372C28.7297 61.5462 28.9805 61.6494 29.2339 61.7469V65.1149C29.2339 66.0001 29.8624 66.763 30.7371 66.9398C32.3433 67.2642 33.9939 67.4289 35.6432 67.4289C37.2923 67.4289 38.9428 67.2644 40.5492 66.9398C41.4242 66.763 42.0526 66.0001 42.0526 65.1149V61.7469C42.3058 61.6494 42.5566 61.5462 42.8049 61.4373L45.2067 63.819C45.8379 64.4449 46.8262 64.5437 47.5708 64.0557C48.9376 63.1595 50.2224 62.1184 51.3891 60.9614C52.5554 59.805 53.605 58.5313 54.5092 57.1759C55.0018 56.4375 54.9022 55.4574 54.2709 54.8314L51.8689 52.4496C51.9787 52.2037 52.0829 51.9548 52.1812 51.7036H55.5772C56.47 51.7036 57.2393 51.0804 57.4175 50.2129C57.7448 48.6194 57.9109 46.9827 57.9109 45.3479C57.9108 44.5065 57.8651 43.659 57.776 42.8156C61.5836 40.7295 64.1685 36.7069 64.1685 32.0965ZM54.1543 45.3485C54.1543 46.2281 54.0976 47.1082 53.9853 47.9789H50.8413C50.0111 47.9789 49.2792 48.5193 49.0416 49.3081C48.7669 50.2199 48.3966 51.1044 47.9406 51.9371C47.5439 52.6622 47.6751 53.5594 48.2632 54.1426L50.4887 56.3493C49.9474 57.0434 49.3598 57.7054 48.7325 58.3275C48.1048 58.9501 47.4371 59.5326 46.7372 60.0691L44.5117 57.8623C43.9237 57.2791 43.0184 57.149 42.2877 57.5424C41.4474 57.9945 40.5556 58.3618 39.6366 58.6338C38.8408 58.8694 38.2957 59.5952 38.2957 60.4186L38.2959 63.5367C36.54 63.7592 34.7457 63.7592 32.9903 63.5367V60.4186C32.9903 59.5952 32.445 58.8694 31.6494 58.6338C30.7309 58.3619 29.8389 57.9947 28.9981 57.5424C28.2671 57.1487 27.3624 57.2793 26.7741 57.8623L24.5481 60.0694C23.8482 59.5328 23.1807 58.9502 22.5532 58.328C21.9261 57.7063 21.3385 57.0441 20.7969 56.3495L23.0226 54.1424C23.6109 53.5594 23.7421 52.662 23.3453 51.9371C22.8892 51.1037 22.5189 50.2194 22.2447 49.3087C22.0071 48.5198 21.2752 47.9791 20.4449 47.9791H17.3002C17.1879 47.1085 17.1311 46.2283 17.1311 45.3485C17.1311 44.9412 17.1439 44.5319 17.1688 44.1224C17.9111 44.2611 18.6766 44.3345 19.4589 44.3345H27.0291C26.9896 44.669 26.9681 45.0069 26.9681 45.3485C26.9681 50.0916 30.8596 53.9504 35.6428 53.9504C40.4263 53.9504 44.3179 50.0916 44.3179 45.3485C44.3179 45.007 44.2965 44.669 44.2569 44.3345H51.8265C52.6089 44.3345 53.374 44.2611 54.1165 44.1224C54.1413 44.5317 54.1542 44.941 54.1543 45.3485ZM40.4534 44.3345C40.5245 44.6651 40.5615 45.0036 40.5615 45.3485C40.5615 48.0376 38.355 50.2253 35.643 50.2253C32.9311 50.2253 30.7248 48.0376 30.7248 45.3485C30.7248 45.0036 30.7617 44.6651 30.8328 44.3345H40.4534ZM51.8266 40.6095H37.5211V30.7028L40.0069 33.1676C40.3737 33.5313 40.8544 33.7132 41.3349 33.7132C41.8155 33.7132 42.2963 33.5313 42.6631 33.1676C43.3966 32.4403 43.3966 31.2611 42.6631 30.5338L36.9711 24.8899C36.2378 24.1626 35.0485 24.1626 34.315 24.8899L28.6232 30.5338C27.8896 31.2609 27.8896 32.4403 28.6232 33.1676C29.3566 33.8948 30.5459 33.8948 31.2794 33.1676L33.7645 30.7033V40.6095H19.4591C14.7251 40.6095 10.8737 36.7905 10.8737 32.0965C10.8737 27.4093 14.7142 23.5946 19.4387 23.5836C19.469 23.5845 19.5044 23.5846 19.5344 23.5841C20.5604 23.5685 21.3839 22.7385 21.3839 21.7212C21.3838 13.9249 27.7805 7.58232 35.6428 7.58232C43.5053 7.58232 49.9019 13.9249 49.9019 21.7223C49.9019 22.2188 50.1019 22.6948 50.4573 23.0444C50.8093 23.3906 51.2848 23.5846 51.7802 23.5846H51.7954C51.8136 23.5845 51.8315 23.5841 51.8506 23.5835C56.5735 23.5965 60.4117 27.4103 60.4117 32.0965C60.4119 36.7905 56.5606 40.6095 51.8266 40.6095Z"
+                  fill="white" />
+                </svg>
+              </div>
+              <div class="li__text">
+                <h3>Connect with API</h3>
+                <p>You just need to integrate Tiponline API into the your CRM system, send text with a link to the customer for online tipping.</p>
+                <br>
+                <p><span>Good for whom</span>: for companies with call centers and back offices. Each staff member will have their own account.</p>
+              </div>
+            </li>
+            <li class="wow fadeInDown">
+              <div class="li__icon">
+                <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M59.1036 3.85742H50.4342C49.4321 3.85742 48.6195 4.66992 48.6195 5.67211C48.6195 6.6743 49.4321 7.4868 50.4342 7.4868H59.1036C60.7939 7.4868 62.1692 8.86209 62.1692 10.5524V19.2218C62.1692 20.224 62.9818 21.0365 63.9839 21.0365C64.9861 21.0365 65.7986 20.224 65.7986 19.2218V10.5524C65.7986 6.86085 62.7951 3.85742 59.1036 3.85742Z"
+                  fill="white" />
+                  <path d="M5.67187 21.0365C6.67406 21.0365 7.48655 20.224 7.48655 19.2218V10.5524C7.48655 8.86209 8.86185 7.4868 10.5523 7.4868H19.2215C20.2237 7.4868 21.0363 6.6743 21.0363 5.67211C21.0363 4.66992 20.2237 3.85742 19.2215 3.85742H10.5523C6.8606 3.85742 3.85718 6.86085 3.85718 10.5524V19.2218C3.85718 20.224 4.66967 21.0365 5.67187 21.0365Z"
+                  fill="white" />
+                  <path d="M19.2215 62.1698H10.5523C8.86185 62.1698 7.48655 60.7945 7.48655 59.1042V50.4348C7.48655 49.4327 6.67406 48.6201 5.67187 48.6201C4.66967 48.6201 3.85718 49.4327 3.85718 50.4348V59.1042C3.85718 62.7957 6.8606 65.7992 10.5523 65.7992H19.2215C20.2237 65.7992 21.0363 64.9867 21.0363 63.9845C21.0363 62.9824 20.2237 62.1698 19.2215 62.1698Z"
+                  fill="white" />
+                  <path d="M63.9839 48.6201C62.9818 48.6201 62.1692 49.4327 62.1692 50.4348V59.1042C62.1692 60.7947 60.7939 62.1698 59.1036 62.1698H50.4342C49.4321 62.1698 48.6195 62.9824 48.6195 63.9845C48.6195 64.9867 49.4321 65.7992 50.4342 65.7992H59.1036C62.7951 65.7992 65.7986 62.7957 65.7986 59.1042V50.4348C65.7986 49.4327 64.9861 48.6201 63.9839 48.6201Z"
+                  fill="white" />
+                  <path d="M57.935 56.1206V36.7639C57.935 35.7618 57.1224 34.9492 56.1203 34.9492H36.7636C35.7614 34.9492 34.9489 35.7618 34.9489 36.7639V56.1206C34.9489 57.1228 35.7614 57.9353 36.7636 57.9353H56.1203C57.1224 57.9353 57.935 57.1228 57.935 56.1206ZM54.3055 54.3059H38.5783V38.5787H54.3055V54.3059Z"
+                  fill="white" />
+                  <path d="M41.6026 30.8363H55.1524C56.1546 30.8363 56.967 30.0237 56.967 29.0216V15.4719C56.967 14.4697 56.1546 13.6572 55.1524 13.6572H41.6026C40.6004 13.6572 39.788 14.4697 39.788 15.4719V29.0216C39.788 30.0237 40.6004 30.8363 41.6026 30.8363ZM43.4173 17.2866H53.3377V27.2069H43.4173V17.2866Z"
+                  fill="white" />
+                  <path d="M30.9565 11.7207H13.5355C12.5333 11.7207 11.7208 12.5332 11.7208 13.5354V30.9564C11.7208 31.9586 12.5333 32.7711 13.5355 32.7711H30.9565C31.9587 32.7711 32.7712 31.9586 32.7712 30.9564V13.5354C32.7712 12.5332 31.9587 11.7207 30.9565 11.7207ZM29.1418 29.1417H15.3502V15.3501H29.1418V29.1417Z"
+                  fill="white" />
+                  <path d="M29.0209 54.3058H15.3502V38.6995C15.3502 37.6973 14.5377 36.8848 13.5355 36.8848C12.5333 36.8848 11.7208 37.6973 11.7208 38.6995V56.1205C11.7208 57.1227 12.5333 57.9352 13.5355 57.9352H29.0209C30.023 57.9352 30.8356 57.1227 30.8356 56.1205C30.8356 55.1184 30.023 54.3058 29.0209 54.3058Z"
+                  fill="white" />
+                  <path d="M23.0929 48.3778V38.6995C23.0929 37.6973 22.2803 36.8848 21.2782 36.8848C20.276 36.8848 19.4635 37.6973 19.4635 38.6995V48.3778C19.4635 49.38 20.276 50.1926 21.2782 50.1926C22.2803 50.1926 23.0929 49.38 23.0929 48.3778Z" fill="white"
+                  />
+                  <path d="M29.0209 36.8848C28.0187 36.8848 27.2062 37.6973 27.2062 38.6995V48.3778C27.2062 49.38 28.0187 50.1926 29.0209 50.1926C30.023 50.1926 30.8356 49.38 30.8356 48.3778V38.6995C30.8356 37.6973 30.023 36.8848 29.0209 36.8848Z" fill="white"
+                  />
+                  <path d="M44.5062 48.2564H48.3776C49.3797 48.2564 50.1923 47.4438 50.1923 46.4417C50.1923 45.4395 49.3797 44.627 48.3776 44.627H44.5062C43.5041 44.627 42.6915 45.4395 42.6915 46.4417C42.6915 47.4438 43.5041 48.2564 44.5062 48.2564Z"
+                  fill="white" />
+                  <path d="M22.2459 25.0289C23.2482 25.0289 24.0606 24.2164 24.0606 23.2142V21.2786C24.0606 20.2764 23.2482 19.4639 22.2459 19.4639C21.2437 19.4639 20.4313 20.2764 20.4313 21.2786V23.2142C20.4313 24.2164 21.2437 25.0289 22.2459 25.0289Z"
+                  fill="white" />
+                </svg>
+              </div>
+              <div class="li__text">
+                <h3>Scan QR code</h3>
+                <p>Create and print your own QR code, put it on any visible surface, even to your website or download it to your smartphone.</p>
+                <br>
+                <p><span>Good for whom</span>: for all types of business specially for self-employed and small businesses (mechanicals, waiters, chefs, guides, barbers etc.)</p>
+              </div>
+            </li>
+            <li class="wow fadeInDown">
+              <div class="li__icon">
+                <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M56.4953 30.5938C62.1209 30.5938 66.7058 26.0209 66.7058 20.3832V14.0681C66.7058 8.43044 62.1329 3.85742 56.4953 3.85742H14.0678C8.4302 3.85742 3.85718 8.43044 3.85718 14.0681V20.3953C3.85718 26.0209 8.4302 30.606 14.0678 30.606H40.2719V42.0507L36.1829 48.0391C34.6826 50.2287 34.4649 53.0839 35.5901 55.4792L40.4292 65.7988C40.7074 66.3917 41.3123 66.7788 41.9656 66.7788C42.2198 66.7788 42.4617 66.7304 42.6794 66.6215C43.5262 66.2223 43.8892 65.218 43.4901 64.3712L38.6508 54.0518C38.0338 52.7331 38.1548 51.1603 38.9775 49.9505L40.2598 48.0632V48.777C40.2598 49.7086 41.022 50.4708 41.9536 50.4708C42.8851 50.4708 43.6472 49.7086 43.6472 48.777V26.9161C43.6472 26.2628 44.1796 25.7304 44.8329 25.7304C45.4862 25.7304 46.0184 26.2628 46.0184 26.9161V44.7847C46.0184 45.7163 46.7806 46.4785 47.7122 46.4785C48.6437 46.4785 49.4059 45.7163 49.4059 44.7847V39.1471C49.4059 38.4937 49.9382 37.9615 50.5915 37.9615C51.2448 37.9615 51.777 38.4937 51.777 39.1471V44.7847C51.777 45.7163 52.5392 46.4785 53.4708 46.4785C54.4023 46.4785 55.1645 45.7163 55.1645 44.7847V39.1471C55.1645 38.4937 55.6967 37.9615 56.3501 37.9615C57.0034 37.9615 57.5358 38.4937 57.5358 39.1471V44.7847C57.5358 45.7163 58.2978 46.4785 59.2294 46.4785C60.1609 46.4785 60.9231 45.7163 60.9231 44.7847V41.2642C60.9231 40.611 61.4553 40.0786 62.1087 40.0786C62.762 40.0786 63.2943 40.611 63.2943 41.2642V51.378C63.2943 54.0275 62.8952 56.6406 62.0966 59.1691L60.4028 64.5649C60.1246 65.4601 60.6206 66.4037 61.516 66.682C61.6853 66.7304 61.8547 66.7545 62.0241 66.7545C62.762 66.7545 63.4153 66.2828 63.6451 65.569L65.3389 60.1732C66.2341 57.3182 66.6817 54.3542 66.6817 51.366V41.2521C66.6817 38.7236 64.6251 36.679 62.1087 36.679C61.516 36.679 60.9352 36.7879 60.4028 37.0057C59.6165 35.5176 58.0559 34.5499 56.3501 34.5499C55.2855 34.5499 54.2814 34.9129 53.4708 35.5783C52.6601 34.9129 51.644 34.5499 50.5915 34.5499C50.1923 34.5499 49.7931 34.5983 49.4059 34.7072V30.5938H56.4953ZM44.8329 22.343C42.3044 22.343 40.2598 24.3996 40.2598 26.9161V27.4485H14.0678C12.1926 27.4485 10.4264 26.7104 9.08348 25.3675C7.74061 24.0247 7.00264 22.2584 7.00264 20.3832V14.0681C7.00264 12.1929 7.74061 10.4266 9.08348 9.08373C10.4264 7.74085 12.1926 7.00289 14.0678 7.00289H56.5074C58.3826 7.00289 60.1489 7.74085 61.4917 9.08373C62.8225 10.4145 63.5605 12.1929 63.5605 14.0681V20.3953C63.5605 22.2705 62.8224 24.0368 61.4796 25.3796C60.1368 26.7224 58.3705 27.4605 56.4953 27.4605H49.4059V26.9281C49.418 24.3996 47.3614 22.343 44.8329 22.343Z"
+                  fill="white" />
+                </svg>
+              </div>
+              <div class="li__text">
+                <h3>Button or widget</h3>
+                <p>Create a widget with a link. Copy url and put a widget on your website. This way of getting tips is good for online services.</p>
+                <br>
+                <p><span>Good for whom</span>: for all websites. Your website user will be able to see each staff member's name and position.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="rht wow fadeInRight">
+          <form class="integration__form" action="#">
+            <div class="coins">
+              <img src="img/coins.png" alt="coins" width="231">
+              <img class="coins-2" src="img/coins2.png" alt="coins" width="155">
+            </div>
+            <h2>Referrals:</h2>
+            <ul>
+              <li>
+                <p>Register, make 5 transactions and get <span>10$</span> to your account! <b>(limited time offer)</b>
+                </p>
+              </li>
+              <li>
+                <p>Invite a friend and get <span>$5</span>. If he makes 5 transactions - get another <span>$5</span>!</p>
+              </li>
+              <li>
+                <p>Share the bonuses together!
+                  <br />Get <span>cashback</span> for tipping with Tiponline.ca!</p>
+              </li>
+            </ul>
+            <div class="form__title">Sign up
+              <br />and start earning more money!</div>
+            <input class="wow fadeInDown" type="text" placeholder="Your name">
+            <input class="wow fadeInDown" type="email" placeholder="Your e-mail">
+            <div class="inp-pass wow fadeInDown">
+              <input type="password" placeholder="Password">
+              <div class="eye">
+                <svg width="19" height="13" viewBox="0 0 19 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path opacity="0.5" d="M9.42857 4.40005C8.74659 4.40005 8.09253 4.6529 7.6103 5.10299C7.12806 5.55308 6.85714 6.16353 6.85714 6.80005C6.85714 7.43657 7.12806 8.04702 7.6103 8.49711C8.09253 8.94719 8.74659 9.20005 9.42857 9.20005C10.1106 9.20005 10.7646 8.94719 11.2468 8.49711C11.7291 8.04702 12 7.43657 12 6.80005C12 6.16353 11.7291 5.55308 11.2468 5.10299C10.7646 4.6529 10.1106 4.40005 9.42857 4.40005ZM9.42857 10.8C8.29193 10.8 7.20184 10.3786 6.39811 9.62848C5.59439 8.87833 5.14286 7.86091 5.14286 6.80005C5.14286 5.73918 5.59439 4.72177 6.39811 3.97162C7.20184 3.22148 8.29193 2.80005 9.42857 2.80005C10.5652 2.80005 11.6553 3.22148 12.459 3.97162C13.2628 4.72177 13.7143 5.73918 13.7143 6.80005C13.7143 7.86091 13.2628 8.87833 12.459 9.62848C11.6553 10.3786 10.5652 10.8 9.42857 10.8V10.8ZM9.42857 0.800049C5.14286 0.800049 1.48286 3.28805 0 6.80005C1.48286 10.312 5.14286 12.8 9.42857 12.8C13.7143 12.8 17.3743 10.312 18.8571 6.80005C17.3743 3.28805 13.7143 0.800049 9.42857 0.800049Z"
+                  fill="#767676" />
+                </svg>
+              </div>
+            </div>
+            <div class="inp-pass wow fadeInDown">
+              <input type="password" placeholder="Repeat password">
+              <div class="eye">
+                <svg width="19" height="13" viewBox="0 0 19 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path opacity="0.5" d="M9.42857 4.40005C8.74659 4.40005 8.09253 4.6529 7.6103 5.10299C7.12806 5.55308 6.85714 6.16353 6.85714 6.80005C6.85714 7.43657 7.12806 8.04702 7.6103 8.49711C8.09253 8.94719 8.74659 9.20005 9.42857 9.20005C10.1106 9.20005 10.7646 8.94719 11.2468 8.49711C11.7291 8.04702 12 7.43657 12 6.80005C12 6.16353 11.7291 5.55308 11.2468 5.10299C10.7646 4.6529 10.1106 4.40005 9.42857 4.40005ZM9.42857 10.8C8.29193 10.8 7.20184 10.3786 6.39811 9.62848C5.59439 8.87833 5.14286 7.86091 5.14286 6.80005C5.14286 5.73918 5.59439 4.72177 6.39811 3.97162C7.20184 3.22148 8.29193 2.80005 9.42857 2.80005C10.5652 2.80005 11.6553 3.22148 12.459 3.97162C13.2628 4.72177 13.7143 5.73918 13.7143 6.80005C13.7143 7.86091 13.2628 8.87833 12.459 9.62848C11.6553 10.3786 10.5652 10.8 9.42857 10.8V10.8ZM9.42857 0.800049C5.14286 0.800049 1.48286 3.28805 0 6.80005C1.48286 10.312 5.14286 12.8 9.42857 12.8C13.7143 12.8 17.3743 10.312 18.8571 6.80005C17.3743 3.28805 13.7143 0.800049 9.42857 0.800049Z"
+                  fill="#767676" />
+                </svg>
+              </div>
+            </div>
+            <button>Sign up</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="plans" id="plans-id">
+    <div class="circle__block">
+      <div class="circle"></div>
+    </div>
+    <div class="wrapper">
+      <h2 class="wow fadeInDown">Services for Restaurants</h2>
+      <div class="plans__block">
+        <div class="plans__item wow fadeInLeft">
+          <div class="item__top">
+            <div class="top__lft">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.0005 -0.000244141C11.1755 -0.000244141 10.388 0.0747559 9.45049 0.487256C8.51299 0.899756 8.0074 1.28971 7.42549 2.02476C6.71299 2.92476 6.33799 4.23726 6.41299 5.32476C6.48799 6.41226 6.56299 6.97476 6.63799 7.34976C6.7212 7.7658 6.77163 7.99976 6.80794 8.16818C6.81417 8.19711 6.81999 8.2241 6.82549 8.24976C6.78799 8.26226 6.69799 8.30226 6.63799 8.36226C6.56299 8.43726 6.41299 8.66226 6.41299 8.92476C6.41299 9.41681 6.47887 9.64534 6.54889 9.8882C6.55358 9.90446 6.55828 9.92079 6.56299 9.93726C6.58799 10.0248 6.61716 10.1248 6.64632 10.2248C6.70466 10.4248 6.76299 10.6248 6.78799 10.7248C6.79439 10.7504 6.80189 10.7826 6.81049 10.8195C6.85221 10.9985 6.91971 11.2882 7.01299 11.4748C7.14424 11.7373 7.23799 11.8873 7.35049 11.9248C7.44049 11.9548 7.53799 11.9623 7.57549 11.9623C7.60049 12.1498 7.66549 12.5998 7.72549 12.8998C7.80049 13.2748 7.91299 13.7998 8.02549 14.1373C8.20049 14.6623 8.40049 15.0373 8.58799 15.3373C8.73799 15.5773 8.80049 15.6623 8.81299 15.6748V17.9998C8.81299 18.2623 8.75352 18.6062 8.70049 18.7123C8.62549 18.8623 8.13799 19.1623 7.61299 19.3123C7.33017 19.3931 6.71293 19.5069 6.07895 19.6239C5.53607 19.724 4.98092 19.8264 4.61299 19.9123C3.48799 20.1748 2.36299 20.6623 1.57549 21.2998C0.600488 22.089 0.375488 22.5373 0.225488 22.9123C0.0849237 23.2637 0.0648061 23.3864 0.0425385 23.5222C0.0410438 23.5313 0.0395394 23.5405 0.0379883 23.5498C0.000488281 23.7748 0.000488281 23.9248 0.000488281 23.9998H24.0005C24.0005 23.9248 24.0005 23.7748 23.963 23.5498C23.9614 23.5405 23.9599 23.5313 23.9584 23.5222C23.9362 23.3864 23.9161 23.2637 23.7755 22.9123C23.6255 22.5373 23.4005 22.089 22.4255 21.2998C21.638 20.6623 20.513 20.1748 19.388 19.9123C19.0201 19.8264 18.4649 19.724 17.922 19.6239C17.2881 19.5069 16.6708 19.3931 16.388 19.3123C15.863 19.1623 15.3755 18.8623 15.3005 18.7123C15.2475 18.6062 15.188 18.2623 15.188 17.9998V15.6748C15.2005 15.6623 15.263 15.5773 15.413 15.3373C15.6005 15.0373 15.8005 14.6623 15.9755 14.1373C16.088 13.7998 16.2005 13.2748 16.2755 12.8998C16.3355 12.5998 16.4005 12.1498 16.4255 11.9623C16.463 11.9623 16.5605 11.9548 16.6505 11.9248C16.763 11.8873 16.8567 11.7373 16.988 11.4748C17.0813 11.2882 17.1488 10.9985 17.1905 10.8195C17.1991 10.7826 17.2066 10.7504 17.213 10.7248C17.238 10.6248 17.2963 10.4248 17.3547 10.2248C17.3838 10.1248 17.413 10.0248 17.438 9.93726C17.4427 9.92079 17.4474 9.90446 17.4521 9.8882C17.5221 9.64534 17.588 9.41681 17.588 8.92476C17.588 8.66226 17.438 8.43726 17.363 8.36226C17.303 8.30226 17.213 8.26226 17.1755 8.24976C17.181 8.2241 17.1868 8.19711 17.193 8.16818C17.2293 7.99976 17.2798 7.7658 17.363 7.34976C17.438 6.97476 17.513 6.41226 17.588 5.32476C17.663 4.23726 17.288 2.92476 16.5755 2.02476C15.9936 1.28971 15.488 0.899756 14.5505 0.487256C13.613 0.0747559 12.8255 -0.000244141 12.0005 -0.000244141Z"
+                fill="#3A97F4" />
+              </svg><span>Get your tips directly to your account</span>
+            </div>
+          </div>
+          <div class="item__percent">3.49% <span>monthly</span>
+          </div>
+          <ul class="item__list">
+            <li>Easily create account and accept tips</li>
+            <li>Transparency of transactions</li>
+            <li>Tracking tips</li>
+            <li>History payments and withdraws</li>
+            <li>Low commission and no hidden fees</li>
+            <li>Immediate withdrawal</li>
+            <li>Different methods of connection</li>
+          </ul>
+          <button class="item__button" data-popup="register">Try now</button>
+        </div>
+        <div class="plans__item wow fadeInRight">
+          <div class="item__top">
+            <div class="top__lft">
+              <svg width="38" height="24" viewBox="0 0 38 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.45049 0.487256C10.388 0.0747558 11.1755 -0.000244141 12.0005 -0.000244141C12.8255 -0.000244141 13.613 0.0747558 14.5505 0.487256C15.488 0.899756 15.9936 1.28971 16.5755 2.02476C17.288 2.92476 17.663 4.23726 17.588 5.32476C17.513 6.41226 17.438 6.97476 17.363 7.34976C17.2798 7.76561 17.2294 7.99955 17.1931 8.16796L17.1755 8.24976C17.213 8.26226 17.303 8.30226 17.363 8.36226C17.438 8.43726 17.588 8.66226 17.588 8.92476C17.588 9.41681 17.5221 9.64534 17.4521 9.8882L17.438 9.93726C17.413 10.0248 17.3838 10.1248 17.3547 10.2248C17.2963 10.4248 17.238 10.6248 17.213 10.7248C17.2066 10.7504 17.1991 10.7826 17.1905 10.8195C17.1488 10.9985 17.0813 11.2882 16.988 11.4748C16.8567 11.7373 16.763 11.8873 16.6505 11.9248C16.5605 11.9548 16.463 11.9623 16.4255 11.9623C16.4005 12.1498 16.3355 12.5998 16.2755 12.8998C16.2005 13.2748 16.088 13.7998 15.9755 14.1373C15.8005 14.6623 15.6005 15.0373 15.413 15.3373C15.263 15.5773 15.2005 15.6623 15.188 15.6748V17.9998C15.188 18.2623 15.2475 18.6062 15.3005 18.7123C15.3755 18.8623 15.863 19.1623 16.388 19.3123C16.6708 19.3931 17.2879 19.5069 17.9219 19.6238C18.2975 19.6931 18.6792 19.7635 19.0005 19.8288C19.3218 19.7635 19.7033 19.6932 20.079 19.6239C20.7129 19.5069 21.3302 19.3931 21.613 19.3123C22.138 19.1623 22.6255 18.8623 22.7005 18.7123C22.7535 18.6062 22.813 18.2623 22.813 17.9998V15.6748C22.8005 15.6623 22.738 15.5773 22.588 15.3373C22.4005 15.0373 22.2005 14.6623 22.0255 14.1373C21.913 13.7998 21.8005 13.2748 21.7255 12.8998C21.6655 12.5998 21.6005 12.1498 21.5755 11.9623C21.538 11.9623 21.4405 11.9548 21.3505 11.9248C21.238 11.8873 21.1442 11.7373 21.013 11.4748C20.9197 11.2882 20.8522 10.9985 20.8105 10.8195C20.8019 10.7826 20.7944 10.7504 20.788 10.7248C20.763 10.6248 20.7047 10.4249 20.6464 10.225C20.6172 10.125 20.588 10.0247 20.563 9.93726L20.5489 9.8882C20.4789 9.64534 20.413 9.41681 20.413 8.92476C20.413 8.66226 20.563 8.43726 20.638 8.36226C20.698 8.30226 20.788 8.26226 20.8255 8.24976L20.8079 8.16818C20.7716 7.99976 20.7212 7.76578 20.638 7.34976C20.563 6.97476 20.488 6.41226 20.413 5.32476C20.338 4.23726 20.713 2.92476 21.4255 2.02476C22.0074 1.28971 22.513 0.899756 23.4505 0.487256C24.388 0.0747558 25.1755 -0.000244141 26.0005 -0.000244141C26.8255 -0.000244141 27.613 0.0747558 28.5505 0.487256C29.488 0.899756 29.9936 1.28971 30.5755 2.02476C31.288 2.92476 31.663 4.23726 31.588 5.32476C31.513 6.41226 31.438 6.97476 31.363 7.34976C31.2798 7.76561 31.2294 7.99955 31.1931 8.16796L31.1755 8.24976C31.213 8.26226 31.303 8.30226 31.363 8.36226C31.438 8.43726 31.588 8.66226 31.588 8.92476C31.588 9.41681 31.5221 9.64534 31.4521 9.8882L31.438 9.93726C31.413 10.0248 31.3838 10.1248 31.3547 10.2248C31.2963 10.4248 31.238 10.6248 31.213 10.7248C31.2066 10.7503 31.1991 10.7825 31.1905 10.8193C31.1488 10.9983 31.0813 11.2882 30.988 11.4748C30.8567 11.7373 30.763 11.8873 30.6505 11.9248C30.5605 11.9548 30.463 11.9623 30.4255 11.9623C30.4005 12.1498 30.3355 12.5998 30.2755 12.8998C30.2005 13.2748 30.088 13.7998 29.9755 14.1373C29.8005 14.6623 29.6005 15.0373 29.413 15.3373C29.263 15.5773 29.2005 15.6623 29.188 15.6748V17.9998C29.188 18.2623 29.2475 18.6062 29.3005 18.7123C29.3755 18.8623 29.863 19.1623 30.388 19.3123C30.6708 19.3931 31.2879 19.5069 31.9219 19.6238C32.4647 19.724 33.0201 19.8264 33.388 19.9123C34.513 20.1748 35.638 20.6623 36.4255 21.2998C37.4005 22.089 37.6255 22.5373 37.7755 22.9123C37.9161 23.2637 37.9362 23.3864 37.9584 23.5222L37.963 23.5498C38.0005 23.7748 38.0005 23.9248 38.0005 23.9998H0.000488281C0.000488281 23.9248 0.000488281 23.7748 0.0379883 23.5498L0.0425385 23.5222C0.0648061 23.3864 0.0849237 23.2637 0.225488 22.9123C0.375488 22.5373 0.600488 22.089 1.57549 21.2998C2.36299 20.6623 3.48799 20.1748 4.61299 19.9123C4.98092 19.8264 5.53607 19.724 6.07895 19.6239C6.71288 19.5069 7.33019 19.3931 7.61299 19.3123C8.13799 19.1623 8.62549 18.8623 8.70049 18.7123C8.75352 18.6062 8.81299 18.2623 8.81299 17.9998V15.6748C8.80049 15.6623 8.73799 15.5773 8.58799 15.3373C8.40049 15.0373 8.20049 14.6623 8.02549 14.1373C7.91299 13.7998 7.80049 13.2748 7.72549 12.8998C7.66549 12.5998 7.60049 12.1498 7.57549 11.9623C7.53799 11.9623 7.44049 11.9548 7.35049 11.9248C7.23799 11.8873 7.14424 11.7373 7.01299 11.4748C6.91971 11.2882 6.85221 10.9985 6.81049 10.8195C6.80191 10.7826 6.79439 10.7503 6.78799 10.7248C6.76299 10.6248 6.70466 10.4248 6.64632 10.2248C6.61716 10.1248 6.58799 10.0248 6.56299 9.93726L6.54889 9.8882C6.47887 9.64534 6.41299 9.41681 6.41299 8.92476C6.41299 8.66226 6.56299 8.43726 6.63799 8.36226C6.69799 8.30226 6.78799 8.26226 6.82549 8.24976L6.80794 8.16818C6.77163 7.99976 6.7212 7.7658 6.63799 7.34976C6.56299 6.97476 6.48799 6.41226 6.41299 5.32476C6.33799 4.23726 6.71299 2.92476 7.42549 2.02476C8.0074 1.28971 8.51299 0.899756 9.45049 0.487256Z"
+                fill="#3A97F4" />
+              </svg><span>Restaurant self checkout</span>
+            </div>
+            <div class="top__best">Try it free</div>
+          </div>
+          <div class="item__percent">39$ <span>monthly</span>
+          </div>
+          <ul class="item__list">
+            <li>Each employee has own account</li>
+            <li>Easily create account and accept tips</li>
+            <li>Transparency of transactions</li>
+            <li>Tracking tips</li>
+            <li>History payments and withdraws</li>
+            <li>Low commission and no hidden fees</li>
+            <li>Different methods of connection</li>
+          </ul>
+          <button class="item__button" data-popup="register">Try it free</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="faq" id="faq-id">
+    <div class="wrapper">
+      <h2 class="wow fadeInDown">Frequently asked questions</h2>
+      <div class="sides">
+        <div class="faq__block">
+          <div class="faq__item wow fadeInDown">
+            <div class="item__head"><span>How Tiponline.ca works?</span>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 9L12 18L3 9" stroke="#3A97F4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="item__body">
+              <p>Huge amount of customers pay for services by credit card. Not only Tiponline helps personnel and specialists to get their tips and increase their income, also we provide a high-quality and transparent service, where each user can accept
+                money immediately to his card, quickly withdraw money, track payments, view the transaction history.</p>
+            </div>
+          </div>
+          <div class="faq__item wow fadeInDown">
+            <div class="item__head"><span>Why should I use this?</span>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 9L12 18L3 9" stroke="#3A97F4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="item__body">
+              <p>Huge amount of customers pay for services by credit card. Not only Tiponline helps personnel and specialists to get their tips and increase their income, also we provide a high-quality and transparent service, where each user can accept
+                money immediately to his card, quickly withdraw money, track payments, view the transaction history.</p>
+            </div>
+          </div>
+          <div class="faq__item wow fadeInDown">
+            <div class="item__head"><span>Is it safe?</span>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 9L12 18L3 9" stroke="#3A97F4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="item__body">
+              <p>Huge amount of customers pay for services by credit card. Not only Tiponline helps personnel and specialists to get their tips and increase their income, also we provide a high-quality and transparent service, where each user can accept
+                money immediately to his card, quickly withdraw money, track payments, view the transaction history.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq__block">
+          <div class="faq__item wow fadeInDown">
+            <div class="item__head"><span>Why is there a fee?</span>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 9L12 18L3 9" stroke="#3A97F4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="item__body">
+              <p>Huge amount of customers pay for services by credit card. Not only Tiponline helps personnel and specialists to get their tips and increase their income, also we provide a high-quality and transparent service, where each user can accept
+                money immediately to his card, quickly withdraw money, track payments, view the transaction history.</p>
+            </div>
+          </div>
+          <div class="faq__item wow fadeInDown">
+            <div class="item__head"><span>What are Tiponline fees?</span>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 9L12 18L3 9" stroke="#3A97F4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="item__body">
+              <p>Huge amount of customers pay for services by credit card. Not only Tiponline helps personnel and specialists to get their tips and increase their income, also we provide a high-quality and transparent service, where each user can accept
+                money immediately to his card, quickly withdraw money, track payments, view the transaction history.</p>
+            </div>
+          </div>
+          <div class="faq__item wow fadeInDown">
+            <div class="item__head"><span>How to withdraw money?</span>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21 9L12 18L3 9" stroke="#3A97F4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="item__body">
+              <p>Huge amount of customers pay for services by credit card. Not only Tiponline helps personnel and specialists to get their tips and increase their income, also we provide a high-quality and transparent service, where each user can accept
+                money immediately to his card, quickly withdraw money, track payments, view the transaction history.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="popup popup-login">
+    <div class="popup__bgd"></div>
+    <form class="popup__content" action="#">
+      <div class="popup__close">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M10.3758 12L2.8121 4.43631C2.36359 3.9878 2.36359 3.26062 2.8121 2.8121C3.26062 2.36359 3.9878 2.36359 4.43631 2.8121L12 10.3758L19.5637 2.8121C20.0122 2.36359 20.7394 2.36359 21.1879 2.8121C21.6364 3.26062 21.6364 3.9878 21.1879 4.43631L13.6242 12L21.1879 19.5637C21.6364 20.0122 21.6364 20.7394 21.1879 21.1879C20.7394 21.6364 20.0122 21.6364 19.5637 21.1879L12 13.6242L4.43631 21.1879C3.9878 21.6364 3.26062 21.6364 2.8121 21.1879C2.36359 20.7394 2.36359 20.0122 2.8121 19.5637L10.3758 12Z"
+          fill="#333333" />
+        </svg>
+      </div>
+      <h2>Log in</h2>
+      <input type="email" placeholder="Your e-mail" />
+      <div class="inp-pass">
+        <input type="password" placeholder="Password" />
+        <div class="eye">
+          <svg width="19" height="13" viewBox="0 0 19 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path opacity="0.5" d="M9.42857 4.40005C8.74659 4.40005 8.09253 4.6529 7.6103 5.10299C7.12806 5.55308 6.85714 6.16353 6.85714 6.80005C6.85714 7.43657 7.12806 8.04702 7.6103 8.49711C8.09253 8.94719 8.74659 9.20005 9.42857 9.20005C10.1106 9.20005 10.7646 8.94719 11.2468 8.49711C11.7291 8.04702 12 7.43657 12 6.80005C12 6.16353 11.7291 5.55308 11.2468 5.10299C10.7646 4.6529 10.1106 4.40005 9.42857 4.40005ZM9.42857 10.8C8.29193 10.8 7.20184 10.3786 6.39811 9.62848C5.59439 8.87833 5.14286 7.86091 5.14286 6.80005C5.14286 5.73918 5.59439 4.72177 6.39811 3.97162C7.20184 3.22148 8.29193 2.80005 9.42857 2.80005C10.5652 2.80005 11.6553 3.22148 12.459 3.97162C13.2628 4.72177 13.7143 5.73918 13.7143 6.80005C13.7143 7.86091 13.2628 8.87833 12.459 9.62848C11.6553 10.3786 10.5652 10.8 9.42857 10.8V10.8ZM9.42857 0.800049C5.14286 0.800049 1.48286 3.28805 0 6.80005C1.48286 10.312 5.14286 12.8 9.42857 12.8C13.7143 12.8 17.3743 10.312 18.8571 6.80005C17.3743 3.28805 13.7143 0.800049 9.42857 0.800049Z"
+            fill="#767676" />
+          </svg>
+        </div>
+      </div>
+      <div class="form__bottom">
+        <div class="remeber">
+          <input type="checkbox" id="ch1" />
+          <label for="ch1">Remember me</label>
+        </div><a class="forgot" href="#" data-popup="forgot">Forgot password</a>
+      </div>
+      <button type="submit">Login</button>
+      <div class="another">Don’t have an account yet? <span data-popup="register">Sign up</span>
+      </div>
+    </form>
+  </div>
+  <div class="popup popup-forgot">
+    <div class="popup__bgd"></div>
+    <form class="popup__content" action="#">
+      <div class="popup__close">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M10.3758 12L2.8121 4.43631C2.36359 3.9878 2.36359 3.26062 2.8121 2.8121C3.26062 2.36359 3.9878 2.36359 4.43631 2.8121L12 10.3758L19.5637 2.8121C20.0122 2.36359 20.7394 2.36359 21.1879 2.8121C21.6364 3.26062 21.6364 3.9878 21.1879 4.43631L13.6242 12L21.1879 19.5637C21.6364 20.0122 21.6364 20.7394 21.1879 21.1879C20.7394 21.6364 20.0122 21.6364 19.5637 21.1879L12 13.6242L4.43631 21.1879C3.9878 21.6364 3.26062 21.6364 2.8121 21.1879C2.36359 20.7394 2.36359 20.0122 2.8121 19.5637L10.3758 12Z"
+          fill="#333333" />
+        </svg>
+      </div>
+      <h2>Remember password</h2>
+      <input type="email" placeholder="Your e-mail" />
+      <button type="submit">Remember</button>
+      <div class="another">I remembered <span data-popup="register">Sign up</span>
+      </div>
+    </form>
+  </div>
+  <div class="popup popup-register">
+    <div class="popup__bgd"></div>
+    <form class="popup__content" action="#">
+      <div class="popup__close">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M10.3758 12L2.8121 4.43631C2.36359 3.9878 2.36359 3.26062 2.8121 2.8121C3.26062 2.36359 3.9878 2.36359 4.43631 2.8121L12 10.3758L19.5637 2.8121C20.0122 2.36359 20.7394 2.36359 21.1879 2.8121C21.6364 3.26062 21.6364 3.9878 21.1879 4.43631L13.6242 12L21.1879 19.5637C21.6364 20.0122 21.6364 20.7394 21.1879 21.1879C20.7394 21.6364 20.0122 21.6364 19.5637 21.1879L12 13.6242L4.43631 21.1879C3.9878 21.6364 3.26062 21.6364 2.8121 21.1879C2.36359 20.7394 2.36359 20.0122 2.8121 19.5637L10.3758 12Z"
+          fill="#333333" />
+        </svg>
+      </div>
+      <h2>Sign up</h2>
+      <input type="text" placeholder="Your name" />
+      <input type="email" placeholder="Your e-mail" />
+      <div class="inp-pass">
+        <input type="password" placeholder="Password" />
+        <div class="eye">
+          <svg width="19" height="13" viewBox="0 0 19 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path opacity="0.5" d="M9.42857 4.40005C8.74659 4.40005 8.09253 4.6529 7.6103 5.10299C7.12806 5.55308 6.85714 6.16353 6.85714 6.80005C6.85714 7.43657 7.12806 8.04702 7.6103 8.49711C8.09253 8.94719 8.74659 9.20005 9.42857 9.20005C10.1106 9.20005 10.7646 8.94719 11.2468 8.49711C11.7291 8.04702 12 7.43657 12 6.80005C12 6.16353 11.7291 5.55308 11.2468 5.10299C10.7646 4.6529 10.1106 4.40005 9.42857 4.40005ZM9.42857 10.8C8.29193 10.8 7.20184 10.3786 6.39811 9.62848C5.59439 8.87833 5.14286 7.86091 5.14286 6.80005C5.14286 5.73918 5.59439 4.72177 6.39811 3.97162C7.20184 3.22148 8.29193 2.80005 9.42857 2.80005C10.5652 2.80005 11.6553 3.22148 12.459 3.97162C13.2628 4.72177 13.7143 5.73918 13.7143 6.80005C13.7143 7.86091 13.2628 8.87833 12.459 9.62848C11.6553 10.3786 10.5652 10.8 9.42857 10.8V10.8ZM9.42857 0.800049C5.14286 0.800049 1.48286 3.28805 0 6.80005C1.48286 10.312 5.14286 12.8 9.42857 12.8C13.7143 12.8 17.3743 10.312 18.8571 6.80005C17.3743 3.28805 13.7143 0.800049 9.42857 0.800049Z"
+            fill="#767676" />
+          </svg>
+        </div>
+      </div>
+      <div class="inp-pass">
+        <input type="password" placeholder="Repeat password" />
+        <div class="eye">
+          <svg width="19" height="13" viewBox="0 0 19 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path opacity="0.5" d="M9.42857 4.40005C8.74659 4.40005 8.09253 4.6529 7.6103 5.10299C7.12806 5.55308 6.85714 6.16353 6.85714 6.80005C6.85714 7.43657 7.12806 8.04702 7.6103 8.49711C8.09253 8.94719 8.74659 9.20005 9.42857 9.20005C10.1106 9.20005 10.7646 8.94719 11.2468 8.49711C11.7291 8.04702 12 7.43657 12 6.80005C12 6.16353 11.7291 5.55308 11.2468 5.10299C10.7646 4.6529 10.1106 4.40005 9.42857 4.40005ZM9.42857 10.8C8.29193 10.8 7.20184 10.3786 6.39811 9.62848C5.59439 8.87833 5.14286 7.86091 5.14286 6.80005C5.14286 5.73918 5.59439 4.72177 6.39811 3.97162C7.20184 3.22148 8.29193 2.80005 9.42857 2.80005C10.5652 2.80005 11.6553 3.22148 12.459 3.97162C13.2628 4.72177 13.7143 5.73918 13.7143 6.80005C13.7143 7.86091 13.2628 8.87833 12.459 9.62848C11.6553 10.3786 10.5652 10.8 9.42857 10.8V10.8ZM9.42857 0.800049C5.14286 0.800049 1.48286 3.28805 0 6.80005C1.48286 10.312 5.14286 12.8 9.42857 12.8C13.7143 12.8 17.3743 10.312 18.8571 6.80005C17.3743 3.28805 13.7143 0.800049 9.42857 0.800049Z"
+            fill="#767676" />
+          </svg>
+        </div>
+      </div>
+      <button type="submit">Sign up</button>
+      <div class="another">Already have an account? <span data-popup="login">Log in</span>
+      </div>
+    </form>
+  </div>
+  <footer class="wow fadeIn" id="footer-id">
+    <div class="wrapper">
+      <div class="footer">
+        <div class="footer__logo">
+          <a class="logo" href="#">
+            <img src="img/logo-footer.svg" alt="logo" width="186" />
+          </a>
+          <div class="copyright">© 2021 Tiponline Inc.</div>
+        </div>
+        <div class="footer__socials">
+          <h3>FOLLOW US</h3>
+          <ul>
+            <li>
+              <a href="#">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.80136 0H31.1773C33.5074 0.0112385 35.7387 0.942376 37.3856 2.59074C39.0325 4.23911 39.9617 6.47126 39.9709 8.80136V31.1773C39.9658 33.512 39.0376 35.7499 37.3887 37.4027C35.7398 39.0556 33.5042 39.9892 31.1695 40H8.80136C6.46561 39.9928 4.22789 39.0603 2.57826 37.4067C0.928625 35.753 0.00152901 33.5131 0 31.1773L0 8.80136C0.00614595 6.46898 0.935403 4.23389 2.58465 2.58465C4.23389 0.935403 6.46898 0.00614595 8.80136 0V0Z"
+                  fill="#3A97F4" />
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M21.9121 15.4681V13.5278C21.9121 12.6022 22.5369 12.381 22.9812 12.381H25.6802V8.25781H21.9528C17.8238 8.25781 16.908 11.3197 16.908 13.3027V15.4681H14.502V20.2821H16.9177V32.3121H21.7316V20.2821H25.296L25.4571 18.3883L25.7404 15.4778L21.9121 15.4681Z"
+                  fill="#FEFEFE" />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#footer_insta)">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.80178 0H31.2002C33.5317 0.00919753 35.7651 0.939479 37.4138 2.58814C39.0625 4.23681 39.9927 6.47024 40.0019 8.80179V31.1788C39.9968 33.5134 39.0685 35.7512 37.4195 37.4039C35.7705 39.0565 33.5347 39.9898 31.2002 40H8.80178C6.4672 39.9898 4.23145 39.0565 2.58245 37.4039C0.933453 35.7512 0.00510177 33.5134 0 31.1788L0 8.80179C0.00919753 6.47024 0.939479 4.23681 2.58814 2.58814C4.23681 0.939479 6.47024 0.00919753 8.80178 0V0Z"
+                    fill="#3A97F4" />
+                    <path d="M25.864 33.6138H14.1361C12.0819 33.6108 10.1127 32.7935 8.66002 31.3412C7.20732 29.8888 6.38958 27.9199 6.38599 25.8657V14.1358C6.38907 12.0813 7.20658 10.1118 8.65933 8.65909C10.1121 7.20633 12.0816 6.38882 14.1361 6.38574H25.864C27.9185 6.38882 29.888 7.20633 31.3407 8.65909C32.7935 10.1118 33.611 12.0813 33.6141 14.1358V25.8657C33.6105 27.9199 32.7928 29.8888 31.3401 31.3412C29.8874 32.7935 27.9182 33.6108 25.864 33.6138ZM14.1361 8.72008C12.7002 8.72162 11.3236 9.2927 10.3083 10.308C9.29294 11.3233 8.72186 12.6999 8.72032 14.1358V25.8657C8.72493 27.3006 9.29699 28.6755 10.3116 29.6901C11.3263 30.7048 12.7011 31.2768 14.1361 31.2814H25.864C27.2993 31.2774 28.6746 30.7055 29.6897 29.6908C30.7048 28.6761 31.2771 27.301 31.2817 25.8657V14.1358C31.2771 12.7006 30.7048 11.3254 29.6897 10.3107C28.6746 9.29601 27.2993 8.72417 25.864 8.72008H14.1361Z"
+                    fill="white" />
+                    <path d="M20 26.9718C18.6211 26.9718 17.2732 26.5629 16.1266 25.7968C14.9801 25.0307 14.0865 23.9418 13.5588 22.6679C13.0311 21.3939 12.893 19.9921 13.162 18.6396C13.4311 17.2872 14.0951 16.0449 15.0701 15.0699C16.0452 14.0948 17.2874 13.4308 18.6399 13.1618C19.9923 12.8928 21.3941 13.0309 22.6681 13.5585C23.9421 14.0862 25.0309 14.9798 25.797 16.1264C26.5631 17.2729 26.972 18.6209 26.972 19.9998C26.9684 21.8478 26.2327 23.619 24.926 24.9258C23.6193 26.2325 21.848 26.9682 20 26.9718ZM20 15.3622C19.0828 15.3622 18.1862 15.6342 17.4235 16.1438C16.6609 16.6533 16.0664 17.3776 15.7154 18.2251C15.3644 19.0725 15.2726 20.0049 15.4515 20.9046C15.6305 21.8042 16.0722 22.6305 16.7207 23.2791C17.3693 23.9277 18.1957 24.3694 19.0953 24.5483C19.9949 24.7273 20.9274 24.6354 21.7748 24.2844C22.6222 23.9334 23.3465 23.339 23.8561 22.5763C24.3657 21.8137 24.6377 20.917 24.6377 19.9998C24.6361 18.7703 24.147 17.5916 23.2776 16.7222C22.4082 15.8528 21.2295 15.3637 20 15.3622Z"
+                    fill="white" />
+                    <path d="M28.9474 12.6301C28.9474 12.9617 28.8491 13.2859 28.6649 13.5616C28.4806 13.8373 28.2188 14.0522 27.9125 14.1791C27.6061 14.3059 27.269 14.3391 26.9438 14.2745C26.6186 14.2098 26.3199 14.0501 26.0854 13.8156C25.8509 13.5812 25.6913 13.2824 25.6266 12.9572C25.5619 12.632 25.5951 12.2949 25.722 11.9886C25.8489 11.6822 26.0638 11.4204 26.3395 11.2362C26.6152 11.0519 26.9393 10.9536 27.2709 10.9536C27.4911 10.9534 27.7092 10.9965 27.9128 11.0807C28.1163 11.1649 28.3012 11.2884 28.4569 11.4441C28.6127 11.5998 28.7362 11.7847 28.8203 11.9883C28.9045 12.1918 28.9477 12.4099 28.9474 12.6301Z"
+                    fill="white" />
+                  </g>
+                  <defs>
+                    <clipPath id="footer_insta">
+                      <rect width="40" height="40" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </li>
+          </ul><a class="privacy" href="#">PRIVACY POLICY</a>
+        </div>
+        <div class="footer__info">
+          <h3>DROP US A LINE</h3><a href="mailto:support@tiponline.ca">support@tiponline.ca</a>
+          <h3>KEEP IN TOUCH</h3>
+          <form action="#">
+            <input type="email" placeholder="E-mail Address" />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+        <a class="page-up" href="#body">
+          <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="36" cy="36" r="36" fill="#C3F6EA" />
+            <path d="M31.4273 40.7273V50.2578C31.4273 51.8462 30.3013 52.9872 28.6532 52.9872C26.9976 52.9872 25.879 51.8462 25.879 50.2578V40.7273H22.1876V50.5785C22.1876 53.994 24.7679 56.1939 28.6532 56.1939C32.5087 56.1939 35.1113 53.994 35.1113 50.5785V40.7273H31.4273ZM37.4249 56H41.1163V51.2571H43.622C47.1195 51.2571 49.3046 49.1839 49.3046 46.0146C49.3046 42.875 47.1643 40.7273 43.7339 40.7273H37.4249V56ZM41.1163 48.3487V43.7028H42.9359C44.5915 43.7028 45.4789 44.5977 45.4789 46.0146C45.4789 47.424 44.5915 48.3487 42.9359 48.3487H41.1163Z"
+            fill="#333333" />
+            <path d="M48 28L36 16L24 28" stroke="#333333" stroke-width="5.33333" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <!-- jQuery JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- slick JS -->
+  <!-- <script src="js/slick.min.js"></script> -->
+  <!-- wow JS -->
+  <!-- <script src="js/wow.min.js"></script> -->
+  <!-- main JS -->
+  <script src="js/libs.min.js"></script>
+  <script src="js/lc_select.min.js"></script>
+  <script src="js/main.min.js"></script>
+
+  </body>
+  </html>
