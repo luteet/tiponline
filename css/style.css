@@ -5333,6 +5333,7 @@ footer:after {
 }
 
 .restaurant-registration__form--save {
+  font-size: 19px;
   max-width: 180px;
   width: 100%;
   text-align: center;
@@ -5557,16 +5558,10 @@ footer:after {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 100%;
           flex: 1 1 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60px 40px auto;
+  grid-template-columns: 60px 40px auto;
   font-weight: 600;
   font-size: 14px;
   line-height: 150.02%;
@@ -5585,8 +5580,11 @@ footer:after {
   width: 100%;
   white-space: nowrap;
   text-align: center;
-  grid-column: auto;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
   grid-row: auto;
+  padding-bottom: 20px;
 }
 
 .restaurant-registration__tables--min-block {
@@ -5597,22 +5595,33 @@ footer:after {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: -7px 0;
-  grid-column: auto;
-  grid-row: auto;
+  margin: -4px 0;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  -ms-grid-row: 2;
+  grid-row: 2/2;
   width: 100%;
 }
 
 .restaurant-registration__tables--min-block._all-links {
-  grid-column: auto;
-  grid-row: auto;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  -ms-grid-row: 3;
+  grid-row: 3/3;
   padding-top: 15px;
 }
 
 .restaurant-registration__tables--qr-img {
-  margin: 10px auto;
-  grid-column: auto;
-  grid-row: auto;
+  width: 90px;
+  height: 90px;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  grid-row: 2/4;
 }
 
 .restaurant-registration__tables--link {
@@ -5622,10 +5631,8 @@ footer:after {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 7px 0;
+  font-size: 0.75rem;
+  padding: 4px 0;
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
@@ -6947,6 +6954,27 @@ footer:after {
   margin-top: 10px;
 }
 
+@media (min-width: 420px) {
+  .restaurant-registration__tables--item {
+    -ms-grid-columns: 100px 72px auto;
+    grid-template-columns: 100px 72px auto;
+  }
+
+  .restaurant-registration__tables--min-block {
+    margin: -7px 0;
+  }
+
+  .restaurant-registration__tables--qr-img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .restaurant-registration__tables--link {
+    font-size: 0.875rem;
+    padding: 7px 0;
+  }
+}
+
 @media (min-width: 426px) {
   .restaurant-registration__form {
     padding-top: 62px;
@@ -6970,14 +6998,6 @@ footer:after {
   }
 }
 
-@media (min-width: 450px) {
-  .restaurant-registration__tables--item {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 50%;
-            flex: 0 1 50%;
-  }
-}
-
 @media (min-width: 577px) {
   .plans .item__top {
     margin-bottom: 21px;
@@ -6998,8 +7018,6 @@ footer:after {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 auto;
             flex: 0 1 auto;
-    display: -ms-grid;
-    display: grid;
     -ms-grid-columns: 70px 140px auto auto;
     grid-template-columns: 70px 140px auto auto;
     -webkit-box-align: stretch;
@@ -7009,6 +7027,7 @@ footer:after {
   }
 
   .restaurant-registration__tables--number {
+    padding-bottom: 0;
     width: auto;
     text-align: left;
     -ms-grid-column: 1;
@@ -7035,18 +7054,11 @@ footer:after {
   }
 
   .restaurant-registration__tables--qr-img {
-    margin: 0;
     -ms-grid-column: 2;
     grid-column: 2/2;
     -ms-grid-row: 1;
     -ms-grid-row-span: 2;
     grid-row: 1/3;
-  }
-
-  .restaurant-registration__tables--link {
-    -webkit-box-pack: stretch;
-        -ms-flex-pack: stretch;
-            justify-content: stretch;
   }
 }
 
@@ -7120,8 +7132,8 @@ footer:after {
   }
 
   .restaurant-registration__form--save._round {
-    padding: 17px 30px;
-    font-size: 21px;
+    padding: 12.185px 30px;
+    font-size: 19px;
   }
 
   .restaurant-registration__radio-btn--span {
